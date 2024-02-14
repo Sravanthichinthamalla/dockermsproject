@@ -13,7 +13,7 @@ services:
     deploy:
       replicas: 3
   dth:
-    image: sravanthi777/paydthh:latest
+    image: sravanthi777/paydth:latest
     ports:
       - "83:80"
     deploy:
